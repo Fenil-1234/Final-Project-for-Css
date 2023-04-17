@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <nav>
+        <div id="logo"> 
+            <a href="">
+                <img src="./images/fm.jpg" alt="Fenil Modi">
+            </a>
+        </div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#Contect-div">Contact</a>
+    </nav>
+    
+    <main>
+        <div id="sgrid">
+            <section id="s1">
+                <div id="fenil">
+                    <img src="./images/fm1.jpg" alt="Fenil Modi">
+                </div>
+                <h1>My portfolio</h1>
+                <p>It is related to in which things i m interested to do work for job.</p>
+                <p>I m expert to make any food and one of my best habit to achive any things as fast as possible.</p>
+            </section>
+
+
+
+            <Section id="about">
+                <h1>About me</h1>
+                <p>Born in 2003 I graced the planet with my presence. I expertise the course in the high school and was a destroyer in school.
+        
+                    I am good in academic and sport especially in cricket and kabbaddi and I got many achivement in my high school.
+                    
+                    The Main goal to achive better result in my college and also get better job related to my course and get also money.</p>
+                    <p>I want to do here for to achive best marks and get high qualified job by achiveing hihjer graded from this college.</p>
+            </Section>
+        
+        </div>
+
+
+        <div id="Contect-div">
+
+            <form clas="f1" avtion="./thanks.html" method="post" name="contact-me" netlify>
+                <fieldset class="fs1">
+                    <legend >Your Information</legend>
+        
+                    <div class="div1">
+                        <label for="firstname">First Name:</label><br>
+                        <input type="text" name="firstname" id="firstname" required maxlength="15" minlength="2" placholder="Fenil">
+                        <small>Required!</small>
+                    </div>
+        
+                    <div class="div2">
+                        <label for="lastname">Last Name:</label><br>
+                        <input type="text" name="lastname" id="lastname" required maxlength="20" minlength="2" placeholder="Modi">
+                        <small>Required!</small>
+                    </div>
+        
+                    <div class="div3">
+                        <label for="company">Company:</label><br>
+                        <input type="text" name="company" id="company" required maxlength="50" minlength="2" placeholder="ACME Inc.">
+                    </div>
+        
+                    <div class="div4">
+                        <label for="noofEmployees">Number of Employees:</label><br>
+                        <span>N/A</span><input type="radio" name="noofEmployees" checked>
+                        <span>1-20</span><input type="radio" name="noofEmployees" value="1-20">
+                        <span>21-100</span><input type="radio" name="noofEmployees" value="21-100">
+                        <span>100+</span><input type="radio" name="noofEmployees" value="100+">
+                    </div>
+                    <div class="fs2">
+                        <legend>Your contact option</legend>
+        
+                        <div class="div5">
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" required placeholder="joe@cmeinc.com">
+                            <small>Required!</small>
+                        </div>
+            
+                        <div class="div6">
+                            <label for="tel">Phone:</label><br>
+                            <input type="tel" id="tel" required placeholder="1(555)555-555">
+                        </div> 
+                    </div>
+                    <div class="fs3">
+                        <legend>Your Inquiry</legend>
+        
+                        <div class="div7">
+                            <label for="inquiryTupe">What is your inquiry about?</label><br>
+                            <select name="inquiryType" id="inquiryType" requird> 
+                               <option value="employment">Employment Opportunity</option>
+                               <option value="business">Business Oppertunity</option>
+                               <option value="freelance">Freelance Inquiry</option>
+                               <option value="general" Selected>General Inquiry</option>
+                            </select><br>
+                            <small>Required!</small>
+                        </div>
+            
+                        <div class="div8">
+                            <label for="message">Your Message:</label><br>
+                            <textarea name="messege" id="message" cols="30" rows="10" required placeholder="yoyr inquiry here"></textarea>
+                            <small>Required!</small>
+                        </div>
+
+                    </div>
+                </fieldset>
+        
+                <div class="div9">
+                    <input type="submit" value="submit Inquiry">
+                </div>
+            </form>
+        </div>
+        <footer>&copy; Fenil Modi, 2022</footer>
+    </main>
+</body>
+</html>
